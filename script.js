@@ -72,7 +72,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')setTerminal(false)});
 const commands = {
   help:'Comandos: skills, projects, contact, clear',
   skills:'HTML5 · Sass · JavaScript · React · Node.js · Express · PHP · Python · C# · MySQL · Git · WordPress',
-  projects:'Cinemateca Santos · SeuAgro · Digimon Manager',
+  projects:'Barbearia · SeuAgro · Digiverso',
   contact:'Abra a seção 10 — Contato para editar seus links de e-mail, GitHub e LinkedIn.'
 };
 terminalForm.addEventListener('submit',e=>{
