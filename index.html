@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b11">
+  <meta name="description" content="Portfólio de Ismael Carvalho — desenvolvimento web, suporte e tecnologia.">
+  <title>Ismael Carvalho | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">&lt;Ismael <b>/</b>&gt;</a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#lab">Lab</a>
+      <a href="#processo">Processo</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <i></i><i></i><i></i>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav>
+      <a href="#inicio"><span>01</span> Início</a>
+      <a href="#sobre"><span>02</span> Sobre</a>
+      <a href="#habilidades"><span>03</span> Habilidades</a>
+      <a href="#skill-tree"><span>04</span> Skill Tree</a>
+      <a href="#projetos"><span>05</span> Projetos</a>
+      <a href="#lab"><span>06</span> The Lab</a>
+      <a href="#pratica"><span>07</span> Na prática</a>
+      <a href="#teoria"><span>08</span> Teoria</a>
+      <a href="#processo"><span>09</span> Processo</a>
+      <a href="#contato"><span>10</span> Contato</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="hero grid-bg" id="inicio">
+      <div class="container hero-inner reveal">
+        <p class="section-kicker green">— 01 — PORTFÓLIO</p>
+        <div class="hero-code">const <span>dev</span> = {</div>
+        <h1>Ismael<br><em>Carvalho</em></h1>
+        <p class="hero-copy">Desenvolvimento web, interfaces, aplicações e suporte técnico. Transformo ideias em soluções digitais funcionais.</p>
+        <div class="hero-actions">
+          <a class="terminal-cta" href="#projetos">&gt; ver_projetos()</a>
+          <a class="ghost-cta" href="#contato">contato ↗</a>
+        </div>
+        <div class="hero-code hero-code--end">};</div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="sobre">
+      <div class="container reveal">
+        <p class="section-kicker blue">— 02 — SOBRE</p>
+        <h2>Construindo na prática.</h2>
+        <p class="lead">Tenho formação técnica em Desenvolvimento de Sistemas e experiência prática com desenvolvimento web, bancos de dados, APIs, WordPress, hardware e suporte.</p>
+        <div class="about-grid">
+          <article class="panel accent-green">
+            <p class="mono-label">// FOCO</p>
+            <h3>Web & Tecnologia</h3>
+            <p>Projetos que combinam lógica, interface, organização e experiência do usuário.</p>
+          </article>
+          <article class="panel accent-purple">
+            <p class="mono-label">// PERFIL</p>
+            <h3>Curioso por natureza</h3>
+            <p>Gosto de entender como as coisas funcionam e transformar aprendizado em projeto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="habilidades">
+      <div class="container reveal">
+        <p class="section-kicker purple">— 03 — STACK</p>
+        <h2>Habilidades</h2>
+        <p class="lead">Tecnologias e conhecimentos que uso para construir e manter projetos.</p>
+
+        <div class="skill-groups">
+          <article class="skill-group">
+            <div class="skill-icon">◇</div>
+            <div class="skill-content">
+              <h3>Front-end</h3><p class="mono-label">// INTERFACES</p>
+              <div class="chips"><span>HTML5</span><span>CSS3</span><span>Sass / SCSS</span><span>JavaScript</span><span>React</span><span>Material UI</span><span>Responsive Design</span><span>Vite</span><span>Interfaces modernas</span><span>UX/UI básico</span></div>
+            </div>
+          </article>
+          <article class="skill-group">
+            <div class="skill-icon">⚙</div>
+            <div class="skill-content">
+              <h3>Back-end</h3><p class="mono-label">// SERVIDOR</p>
+              <div class="chips"><span>Node.js</span><span>Express</span><span>PHP</span><span>Python</span><span>C#</span><span>APIs REST</span><span>CRUD</span><span>Integração Front-end / Back-end</span></div>
+            </div>
+          </article>
+          <article class="skill-group">
+            <div class="skill-icon">▦</div>
+            <div class="skill-content">
+              <h3>Dados & Infra</h3><p class="mono-label">// SISTEMAS</p>
+              <div class="chips"><span>MySQL</span><span>SQL</span><span>Workbench</span><span>Git</span><span>GitHub</span><span>WordPress</span><span>Hardware</span><span>Suporte</span><span>Redes</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="skill-tree">
+      <div class="container reveal">
+        <p class="section-kicker blue">— 04 — PROGRESSÃO</p>
+        <h2>Tech Skill Tree</h2>
+        <p class="lead">Passe o mouse (ou toque) em um nó para ver a descrição.</p>
+        <div class="tree-shell">
+          <div class="skill-tree" id="skillTree">
+            <button class="tree-node root" data-info="Minha base principal: construção de soluções web e aplicações.">DEVELOPMENT</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node branch" data-info="Interfaces, componentes, responsividade e experiência de uso.">FRONT-END</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Estrutura semântica e acessível para páginas e aplicações.">HTML5</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Estilização modular usando Sass / SCSS.">Sass</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node wide" data-info="DOM, eventos, lógica, requisições e interatividade.">JavaScript</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Criação de interfaces componentizadas e aplicações SPA.">React</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node branch" data-info="APIs, regras de negócio e integração com banco de dados.">BACK-END</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Servidor JavaScript, APIs e aplicações com Express.">Node.js</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Programação orientada a objetos e fundamentos em C#.">C#</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node branch" data-info="Modelagem, consultas e persistência de dados.">DATABASE</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Banco relacional utilizado nos meus projetos full-stack.">MySQL</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node" data-info="Consultas, relacionamentos, filtros e manipulação de dados.">SQL</button>
+            <span class="tree-dot"></span><span class="tree-line"></span>
+            <button class="tree-node wide" data-info="Ferramenta gráfica que utilizo para trabalhar com MySQL.">Workbench</button>
+          </div>
+          <div class="tree-extra">
+            <button data-info="Criação e personalização de sites e temas.">WordPress</button>
+            <button data-info="Versionamento local de projetos.">Git</button>
+            <button data-info="Repositórios, colaboração e portfólio de código.">GitHub</button>
+            <button data-info="Montagem, manutenção e diagnóstico.">Hardware</button>
+            <button data-info="Resolução de problemas e auxílio técnico.">Suporte</button>
+            <button data-info="Configuração e fundamentos de conectividade.">Redes</button>
+          </div>
+          <p class="tree-hint" id="treeHint">// selecione um nó para ver detalhes</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="projetos">
+      <div class="container reveal">
+        <p class="section-kicker purple">— 05 — WORK</p>
+        <h2>Projetos</h2>
+        <p class="lead">Projetos desenvolvidos e conceitos trabalhados do início ao resultado funcional.</p>
+        <div class="filter-bar" id="projectFilters">
+          <button class="active" data-filter="all">TODOS</button>
+          <button data-filter="web">WEB / WORDPRESS</button>
+          <button data-filter="product">PRODUCT</button>
+          <button data-filter="fullstack">FULL STACK</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-category="web">
+            <div class="project-preview"><span>WEB / WORDPRESS</span><p>SCREENSHOT EM BREVE</p></div>
+            <div class="project-body"><h3>Cinemateca Santos</h3><p>Website desenvolvido utilizando WordPress, PHP, HTML e CSS, trabalhando estrutura visual, conteúdo, responsividade e personalização.</p><div class="chips"><span>WordPress</span><span>PHP</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+          <article class="project-card" data-category="product">
+            <div class="project-preview"><span>PRODUCT / UX</span><p>CONCEITO DE PRODUTO</p></div>
+            <div class="project-body"><h3>SeuAgro</h3><p>Conceito de marketplace para o setor agropecuário, conectando produtores, máquinas, produtos e serviços em uma única experiência.</p><div class="chips"><span>UI/UX</span><span>Marketplace</span><span>ESG</span><span>Branding</span></div></div>
+          </article>
+          <article class="project-card" data-category="fullstack">
+            <div class="project-preview"><span>FULL STACK</span><p>CRUD / API / DATABASE</p></div>
+            <div class="project-body"><h3>Digimon Manager</h3><p>Aplicação CRUD com interface em React, API Node.js/Express e persistência de dados usando MySQL.</p><div class="chips"><span>React</span><span>MUI</span><span>Node.js</span><span>Express</span><span>MySQL</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="lab">
+      <div class="container reveal">
+        <p class="section-kicker blue">— 06 — LABORATÓRIO</p>
+        <h2>The Lab</h2>
+        <p class="lead">Pequenos projetos, estudos e experimentos em andamento.</p>
+        <div class="lab-list">
+          <article><div><h3>JavaScript</h3><span class="status learning">LEARNING</span></div><p>Estudos de DOM, eventos, assincronismo e boas práticas.</p></article>
+          <article><div><h3>Python</h3><span class="status experiment">EXPERIMENT</span></div><p>Scripts, automações e exercícios de lógica.</p></article>
+          <article><div><h3>C#</h3><span class="status learning">LEARNING</span></div><p>Programação orientada a objetos e fundamentos.</p></article>
+          <article><div><h3>APIs</h3><span class="status completed">COMPLETED</span></div><p>Consumo e criação de APIs REST com testes no Postman.</p></article>
+          <article><div><h3>Banco de Dados</h3><span class="status completed">COMPLETED</span></div><p>Modelagem, consultas SQL e relacionamentos.</p></article>
+          <article><div><h3>WordPress</h3><span class="status completed">COMPLETED</span></div><p>Personalização de temas e estrutura de conteúdo.</p></article>
+          <article><div><h3>Hardware</h3><span class="status completed">COMPLETED</span></div><p>Montagem, manutenção e diagnóstico de máquinas.</p></article>
+          <article><div><h3>Interfaces</h3><span class="status experiment">EXPERIMENT</span></div><p>Experimentos de UI com HTML, Sass e JavaScript.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="pratica">
+      <div class="container reveal">
+        <p class="section-kicker green">— 07 — CAPACIDADES</p>
+        <h2>O que eu sei fazer</h2>
+        <div class="knowledge-card practice">
+          <h3>// NA PRÁTICA</h3>
+          <ul>
+            <li>Criar sites completos</li><li>Criar layouts responsivos</li><li>Criar interfaces com HTML, Sass e JavaScript</li><li>Criar aplicações React</li><li>Criar APIs</li><li>Trabalhar com Node.js</li><li>Trabalhar com MySQL</li><li>Criar CRUD</li><li>Integrar Front-end e Back-end</li><li>Criar e personalizar sites WordPress</li><li>Utilizar Git e GitHub</li><li>Resolver problemas de hardware e software</li><li>Configurar sistemas e ferramentas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="teoria">
+      <div class="container reveal">
+        <p class="section-kicker blue">— 08 — FUNDAMENTOS</p>
+        <h2>Base teórica</h2>
+        <div class="knowledge-card theory">
+          <h3>// CONHECIMENTO TEÓRICO</h3>
+          <ul>
+            <li>Lógica de programação</li><li>Programação orientada a objetos</li><li>Estruturas de dados básicas</li><li>Arquitetura Front-end / Back-end</li><li>APIs REST</li><li>Banco de dados relacional</li><li>Modelagem de banco</li><li>Responsividade</li><li>Versionamento</li><li>Redes</li><li>Sistemas operacionais</li><li>Hardware</li><li>Segurança web básica</li><li>Organização de projetos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg" id="processo">
+      <div class="container reveal">
+        <p class="section-kicker green">— 09 — PROCESSO</p>
+        <h2>Como eu trabalho</h2>
+        <div class="process-list">
+          <article><span>01</span><div><h3>IDEIA</h3><p>Entender o problema, o objetivo e o que precisa existir.</p></div></article><i>↓</i>
+          <article><span>02</span><div><h3>PLANEJAMENTO</h3><p>Definir escopo, estrutura, tecnologias e prioridades.</p></div></article><i>↓</i>
+          <article><span>03</span><div><h3>DESIGN</h3><p>Organizar layout, hierarquia visual e experiência de uso.</p></div></article><i>↓</i>
+          <article><span>04</span><div><h3>DESENVOLVIMENTO</h3><p>Construir front-end, back-end e integrações.</p></div></article><i>↓</i>
+          <article><span>05</span><div><h3>TESTES & ENTREGA</h3><p>Revisar, corrigir, otimizar e preparar a versão final.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-bg contact-section" id="contato">
+      <div class="container reveal">
+        <p class="section-kicker blue">— 10 — CONTATO</p>
+        <h2>Vamos conversar</h2>
+        <p class="lead">Aberto a projetos, colaborações e oportunidades na área de tecnologia.</p>
+        <div class="contact-list">
+          <a href="mailto:ismaelcarvalho932@gmail.com"><span class="contact-icon">@</span><div><small>E-MAIL</small><strong>ismaelcarvalho932@gmail.com</strong></div></a>
+          <a href="https://github.com/Ismael-1093" target="_blank" rel="noopener noreferrer"><span class="contact-icon">&lt;/&gt;</span><div><small>GITHUB</small><strong>github.com/Ismael-1093</strong></div></a>
+          <a href="https://www.linkedin.com/in/ismaelcarvalho-dev" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><div><small>LINKEDIN</small><strong>linkedin.com/in/ismaelcarvalho-dev</strong></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#inicio">&lt;Ismael <b>/</b>&gt;</a>
+    <nav><a href="#inicio">Início</a><a href="#projetos">Projetos</a><a href="#habilidades">Skills</a><a href="#contato">Contato</a></nav>
+    <p>HTML5 · Sass · JavaScript Vanilla</p>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="#top" class="float-btn" aria-label="Voltar ao topo">↑</a>
+    <button class="float-btn terminal-btn" id="terminalBtn" aria-label="Abrir terminal">&gt;_</button>
+  </div>
+
+  <div class="terminal-modal" id="terminalModal" aria-hidden="true">
+    <div class="terminal-window">
+      <div class="terminal-head"><span>ismael@portfolio:~</span><button id="terminalClose" aria-label="Fechar">×</button></div>
+      <div class="terminal-body" id="terminalBody">
+        <p><span>visitor@portfolio</span>:~$ help</p>
+        <p>Comandos: <b>skills</b>, <b>projects</b>, <b>contact</b>, <b>clear</b></p>
+      </div>
+      <form id="terminalForm"><span>$</span><input id="terminalInput" autocomplete="off" aria-label="Comando do terminal"></form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
